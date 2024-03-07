@@ -1,0 +1,46 @@
+/* index */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+#inputBox {
+  margin-bottom: 10px;
+}
+
+#translateBtn {
+  padding: 4px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#translationResult {
+  margin-top: 10px;
+}
+  
+
+/* options */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#apiKey {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}

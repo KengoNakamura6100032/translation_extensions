@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "和英簡易翻訳",
+  "version": "1.0",
+  "description": "Deepl API を利用し日本語を英語に翻訳するGoogle 拡張機能",
+  "permissions": ["activeTab", "scripting", "cookies", "storage"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
